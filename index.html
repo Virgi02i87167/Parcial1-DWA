@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Animes</title>
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Welcome</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Acerca de</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrusel de fotos -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/imagen1.jpg" class="d-block w-100" height="400px" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/imagen2.jpg" class="d-block w-100" height="400px" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/imagen3.png" class="d-block w-100" height="400px" alt="Imagen 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Cards -->
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/parry.jpg" class="card-img-top" alt="Parry">
+                    <div class="card-body">
+                        <h5 class="card-title">Ore wa Subete wo "Parry" Suru</h5>
+                        <p class="card-text">El Reino de Clays se enfrenta a un conflicto que dará forma al continente
+                            durante siglos... ¡pero Noor no tiene ni idea de nada de eso! Acaba de llegar a la capital
+                            real después de más de una década de riguroso y aislado entrenamiento en su hogar en la
+                            montaña, y está decidido a cumplir su sueño de la infancia</p>
+                        <a href="https://es.wikipedia.org/wiki/Ore_wa_Subete_o_%22Parry%22_Suru:_Gyaku_Kanchigai_no_Sekai_Saiky%C5%8D_wa_B%C5%8Dken-sha_ni_Naritai"
+                            class="btn btn-primary" target="_blank">Leer mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/tensei-shitara.jpg" class="card-img-top" alt="Tensehi Shitara">
+                    <div class="card-body">
+                        <h5 class="card-title">Tensei Shitara Slime Datta Ken</h5>
+                        <p class="card-text">Después de recuperar la conciencia, Satoru descubre que se ha reencarnado
+                            como un Slime en un mundo desconocido. Al mismo tiempo, también adquiere nuevas habilidades,
+                            particularmente la habilidad llamada "Depredador", que le permite devorar cualquier cosa e
+                            imitar su apariencia y habilidades. </p>
+                        <a href="https://es.wikipedia.org/wiki/Tensei_Shitara_Slime_Datta_Ken" class="btn btn-primary"
+                            target="_blank">Leer mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/tokidoki.jpg" class="card-img-top" alt="Tokidoki">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokidoki Bosotto Russia-go de Dereru Tonari no Aalya-san</h5>
+                        <p class="card-text">Alisa Mikhailovna Kujo, que asiste a una escuela privada, Seirei Gakuen, es
+                            una chica de secundaria con cabello plateado que se ve tan hermosa que cualquiera puede
+                            darse la vuelta si ella camina. El personaje principal, Masachika Kuze, que se sienta junto
+                            a Alisa, es un estudiante desmotivado</p>
+                        <a href="https://es.wikipedia.org/wiki/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Aalya-san"
+                            class="btn btn-primary" target="_blank">Leer mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Agregar scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXlKYbN9D5hYSrEXQYhGGzmbH6Z/a+7/6WgB1PoekMhSg3TD6p3QqlG3pIJF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhG81r6Sfp+2I4Rh4I/rGxe7j5pEXe5zDk5r5z5/5Pnv5LRSLmo+FJ4rNk"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
